@@ -583,8 +583,8 @@ table, th, td {
 <td align="center">X</td>
 </tr>
 </tbody></table>
-<ol>
-<li>企業舉債的優缺點：優點：具有迅速籌集資金的作用、抵減稅負；缺點：經濟不景氣，資金供不應求時，利率就可能上升，此時企業負債成本將會增加</li>
+<ol start="4">
+<li>企業舉債的優缺點：優點：具有迅速籌集資金的作用、抵減稅負；缺點：經濟不景氣，資金供不應求時，利率就可能上升，此時企業負債成本將會增加。</li>
 <li>如何決定目標資本結構：能使加權平均資本成本最低的資本結構 🦢。</li>
 </ol>
 <hr>
@@ -592,6 +592,78 @@ table, th, td {
 <p>每股價值 &#x3D; (<span style="color: #97BC8A;">資產營運價值</span> + 現金 - 負債 - 員工Stock option) &#x2F; 流通在外股數<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="若成長股有AB股之差異，需重新計算 總股數 = #B * 價值倍數 + #A，再帶進公式">[6]</span></a></sup></p>
 <p>資產營運價值 &#x3D; FCFF_{Y1}&#x2F;WACC_1 + FCFF_{Y2}&#x2F;(WACC_2)^2 + … + (FCFF_{Yn} + Terminal Value)&#x2F;(WACC_n)^n</p>
 <hr>
+<h3 id="股票評價：相對價值法"><a href="#股票評價：相對價值法" class="headerlink" title="股票評價：相對價值法"></a>股票評價：相對價值法</h3><ul>
+<li>分析各公司的市場價格，嘗試找出值得投資的（被低估的）標的。</li>
+<li>取決於（1）風險（2）成長速度（3）產生現金流的能力</li>
+</ul>
+<p>步驟：</p>
+<ol>
+<li>找出有市價的可比資產</li>
+<li>計算市價對某個<strong>共同變量</strong>的比率，得出可跨資產比較的標準化價格：例如，盈利、帳面值、營收、公司或產業的重要指標（顧客、用戶、單位的數目）</li>
+<li>根據各資產的差異做調整</li>
+</ol>
+<p>有關標準化：</p>
+<ul>
+<li>估算市值的三個選擇：（1）股權市值（2）公司市值（3）營運資產的市值</li>
+<li>確保倍數定義一致<ul>
+<li>時間的定義：上一個會計年度的盈餘&#x2F;過去四季的盈餘</li>
+<li>倍數的分子分母定義：EX 公司盈利：股價&#x2F;每股獲利 or 總市值&#x2F;稅後總淨利；反面：股價營收比 （股東&#x2F;所有關係人 -&gt; 兩邊不一致）</li>
+</ul>
+</li>
+</ul>
+<p>四大常用倍數（取中值（median）） -&gt; 倍數的波動來自（1）利率語經濟成長改變（2）市場對風險的看法 -&gt; 相對評價的有效期短</p>
+<ol>
+<li><strong>當前本益比</strong></li>
+<li><strong>股價淨值比</strong> -&gt; （補充）股價營收比</li>
+<li><strong>EV&#x2F;營收</strong> -&gt; <strong>EV&#x2F;EBITDA</strong> </li>
+<li>（補充）EV&#x2F;公司自由現金流</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">本益比P&#x2F;E</th>
+<th align="center">股價淨值比P&#x2F;B</th>
+<th align="center">股價營收比P&#x2F;S</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">分子定義</td>
+<td align="center">下年度預期股息&#x2F;(股權資金成本-預期成長)</td>
+<td align="center">下年度預期股息&#x2F;(股權資金成本-預期成長)</td>
+<td align="center">下年度FCFF預估&#x2F;(資本成本 - 預期成長) &#x3D; EBIT(1-T)*(1-再投資)&#x2F;(資本成本-預期成長率)</td>
+</tr>
+<tr>
+<td align="center">整體定義</td>
+<td align="center">股權價值&#x2F;淨利</td>
+<td align="center">股權價值&#x2F;股東權益帳面價值</td>
+<td align="center">企業價值&#x2F;營收</td>
+</tr>
+<tr>
+<td align="center">拆開整體定義</td>
+<td align="center">股息發放率&#x2F;(股權資金成本-預期成長率)</td>
+<td align="center">ROEX股息發放率&#x2F;(股權資金成本-預期成長率)</td>
+<td align="center">稅後營業利潤率X(1-在投資)&#x2F;資本成本-預期成長率</td>
+</tr>
+<tr>
+<td align="center">決定倍數的基本因素</td>
+<td align="center">預期成長率、股息發放率、風險</td>
+<td align="center">預期成長率、股息發放率、風險、股東權益報酬率</td>
+<td align="center">預期成長率、股息發放率、風險、淨利率</td>
+</tr>
+<tr>
+<td align="center">同伴變量</td>
+<td align="center">EPS</td>
+<td align="center">ROE</td>
+<td align="center">淨利率</td>
+</tr>
+</tbody></table>
+<p>控制差異：</p>
+<ol>
+<li>該公司倍數於產業中位相比，若有顯著差異，檢視公司的特質（成長、風險、現金流）是否可以解釋差異</li>
+<li>調整倍數，反映對該倍數影響最大的同伴變量（假設：風險相同、成長率和EPS成比例）-&gt; PEG值：本益比&#x2F;成長率 每1%的成長率要給本益比PEG倍</li>
+<li>若調整變量超過一個，使用多元回歸分析</li>
+</ol>
 <hr>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">the_jump_of_EPS/P_ratio_at_0<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">ROE表示管理者運用股東資金獲取盈餘的能力<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">來自CAPM（均衡模型），投資人期望報酬率=公司使用資金的成本（至少要賺到的報酬率）<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">營運資產規模差不多就是負債。錢只夠還給債權人，沒有成長性帶給股東價值。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">保留盈餘(Retained_Earnings)的使用方式:
 1. 以股利的形式(全部或部分)分配給股東。
