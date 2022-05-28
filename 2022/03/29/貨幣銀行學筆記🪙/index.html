@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<!--[if lte IE 8 ]>
+<html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<!--
+***************  *      *     *
+      8          *    *       *
+      8          *  *         *
+      8          **           *
+      8          *  *         *
+      8          *    *       *
+      8          *      *     *
+      8          *        *   ***********  Theme By Kieran(http://go.kieran.top)
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<!--<![endif]-->
+
+<head>
+  <title>貨幣銀行學筆記 🪙 | Hexo</title>
+  <!-- Meta data -->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Hexo">
+    <meta name="author" content="John Doe">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicon, (keep icon in root folder) -->
+    <link rel="Shortcut Icon" href="/img/favicon.ico" type="image/ico">
+
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="stylesheet" href="/css/all.css" media="screen" type="text/css">
+    
+    <link rel="stylesheet" href="/highlightjs/vs.css" type="text/css">
+    
+
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/css/ie8.css" />
+    <![endif]-->
+
+    <!-- jQuery | Load our jQuery, with an alternative source fallback to a local version if request is unavailable -->
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+
+  
+  
+  
+
+  <style>.col-md-8.col-md-offset-2.opening-statement img{display:none;}</style>
+</head>
+
+<!--
+<body class="post-template">
+-->
+<body id="index" class="lightnav animsition">
+
+      <!-- ============================ Off-canvas navigation =========================== -->
+
+    <div class="sb-slidebar sb-right sb-style-overlay sb-momentum-scrolling">
+        <div class="sb-close" aria-label="Close Menu" aria-hidden="true">
+            <img src="/img/close.png" alt="Close"/>
+        </div>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu">
+            <li><a href="/" class="animsition-link" title="Home">Home</a></li>
+            <li><a href="/archives" class="animsition-link" title="archive">archives</a></li>
+            <!-- Dropdown Menu -->
+			 
+            <li>
+                <a class="sb-toggle-submenu">Works<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                        <li><a href="https://kiyas008.github.io/tags/知山否/" target="_BLANK" class="animsition-link">知山否</a></li>
+                    
+                        <li><a href="/" target="_BLANK" class="animsition-link">Side Projects</a></li>
+                    
+                </ul>
+            </li>
+            
+            
+            
+            <li>
+                <a class="sb-toggle-submenu">Links<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                    <li><a target="_blank" rel="noopener" href="https://github.com/" class="animsition-link">KIYAS</a></li>
+                    
+                    <li><a target="_blank" rel="noopener" href="http://domain.com/" class="animsition-link">Still Constructing</a></li>
+                    
+                </ul>
+            </li>
+            
+        </ul>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu secondary">
+            
+            <li><a href="/about.html" class="animsition-link" title="about">About</a></li>
+            <li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>
+        </ul>
+    </div>
+    
+    <!-- ============================ END Off-canvas navigation =========================== -->
+
+    <!-- ============================ #sb-site Main Page Wrapper =========================== -->
+
+    <div id="sb-site">
+        <!-- #sb-site - All page content should be contained within this id, except the off-canvas navigation itself -->
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+        <div id="navigation" class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <!-- Nav logo -->
+                    <div class="logo">
+                        <a href="/" title="Logo" class="animsition-link">
+                         <img src="/img/whale.png" alt="Logo" width="35px;"/> 
+                        </a>
+                    </div>
+                    <!-- // Nav logo -->
+                    <!-- Info-bar -->
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="/" class="animsition-link">Hexo</a></li>
+                            <li class="nolink"><span>Always </span>Creative.</li>
+                            
+                            <li><a href="https://github.com/" title="Github" target="_blank"><i class="icon-github"></i></a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li class="nolink"><span>Welcome!</span></li>
+                        </ul>
+                    </nav>
+                    <!--// Info-bar -->
+                </div>
+                <!-- // .container -->
+                <div class="learnmore sb-toggle-right">More</div>
+                <button type="button" class="navbar-toggle menu-icon sb-toggle-right" title="More">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar before"></span>
+                <span class="icon-bar main"></span>
+                <span class="icon-bar after"></span>
+                </button>
+            </div>
+            <!-- // .navbar-inner -->
+        </div>
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+
+      
+<section id="intro">
+    <div class="container">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2022-03-29T01:05:09.000Z" itemprop="datePublished">
+          2022-03-29
+      </time>
+    
+    
+    | 
+    <a href='/tags/知山否/'>知山否</a>
+    
+    
+</span>
+                <h1>貨幣銀行學筆記 🪙</h1>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+      		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="大綱"><a href="#大綱" class="headerlink" title="大綱"></a>大綱</h3><h6 id="前備知識基底：經濟學原理-x2F-總體經濟學"><a href="#前備知識基底：經濟學原理-x2F-總體經濟學" class="headerlink" title="前備知識基底：經濟學原理&#x2F;總體經濟學"></a>前備知識基底：經濟學原理&#x2F;總體經濟學</h6><ol>
+<li>泛談金融市場的功能、結構與工具</li>
+<li>錢的功能、支付方式的演進</li>
+<li>衡量貨幣總量的M系統</li>
+<li>貨幣數量論 <img src="https://render.githubusercontent.com/render/math?math=M*V = P*Y"><ol>
+<li><img src="https://render.githubusercontent.com/render/math?math=P*Y">: National Income&#x2F;Spending(GDP)</li>
+<li><img src="https://render.githubusercontent.com/render/math?math=V"> 貨幣週轉率：取決於信用機制的採行方式與程度</li>
+<li><img src="https://render.githubusercontent.com/render/math?math=P -> ΔP"></li>
+</ol>
+</li>
+<li>政府收支（預算赤字）與通膨的關係：央行發債買下政府的債務</li>
+<li>利率的意涵、衡量和各種類型</li>
+<li>利率與債信工具<ol>
+<li>利率與投報率的差異</li>
+<li>利率作為持有風險</li>
+</ol>
+</li>
+<li>名義利率、實際利率、通膨與預期</li>
+<li>利率作為債信市場的價格，形成均衡背後的供給與需求<ol>
+<li>Supply &amp; Demand in Bond Market</li>
+<li>Liquidity Preference Framework -&gt; Supply &amp; Demand for loanable funds</li>
+</ol>
+</li>
+<li>銀行系統、資產負債表與基本功能</li>
+<li>央行的角色、資產負債表</li>
+<li>貨幣供給的過程</li>
+<li>傳統與新型的貨幣政策工具</li>
+</ol>
+<hr>
+<h3 id="利率作為債信市場的價格，形成均衡背後的供給與需求"><a href="#利率作為債信市場的價格，形成均衡背後的供給與需求" class="headerlink" title="利率作為債信市場的價格，形成均衡背後的供給與需求"></a>利率作為債信市場的價格，形成均衡背後的供給與需求</h3><p>從兩個角度看市場：從債券市場的供需，和流動性（資金）的供需</p>
+<h4 id="Supply-amp-Demand-in-Bond-Market"><a href="#Supply-amp-Demand-in-Bond-Market" class="headerlink" title="Supply &amp; Demand in Bond Market"></a>Supply &amp; Demand in Bond Market</h4><p>債券市場的價格：債券（discount bond）的價格對應（殖）利率，which stands for <img src="https://render.githubusercontent.com/render/math?math=(F-P)/P"><br>債券需求的影響因素：wealth, [expected return], riskiness relative to other assets, liquidity relative to other assets.</p>
+<p>expected return 又分為三條傳導路徑：</p>
+<ol>
+<li>expected interest rate: 長於一年的債券，到期本金受利率影響。所以當預期利息未來會升高，那長期債卷的預期回報就會下降，減少對債券的需求</li>
+<li>expected inflation: 1 實體資產變貴，能動用的資金拿去購買債券就變少，2 Inflation erodes the purchasing power of a bond’s future cash flows. 通膨提升名義利率，而債券的預期投報率相對就下降，讓需求減少。</li>
+<li>expected return on alternative assets：其它資產變得有吸引力，對債券的需求就會減少</li>
+</ol>
+<hr>
+<p>資金交易的市場 央行主導的資金交易市場 銀行組成的資金交易市場<br>了解銀行的獲利模式，從資產負債表切入<br>銀行的功能：傳遞央行的貨幣政策，提供資金給需求者：提供放款給企業及家戶，service checking and saving account, 信用卡和ATM</p>
+
+            <div class="clearfix"></div>
+            <hr class="nogutter">
+        </div>
+        <nav class="m-pagination col-md-8 col-md-offset-2 col-sm-24" role="pagination">
+    
+    <a class="pull-left" href="/2022/05/04/%F0%9F%94%8D-%E8%B3%87%E6%96%99%E6%8E%A2%E5%8B%98%E8%88%87%E5%95%86%E6%A5%AD%E6%99%BA%E6%85%A7%E7%AD%86%E8%A8%98/" style="float: left;">
+        ← 🔍 資料探勘與商業智慧筆記
+    </a>
+    
+    
+    <a class="pull-right" href="/2022/03/27/%E8%B2%A1%E5%A0%B1%E5%88%86%E6%9E%90%E8%88%87%E8%A9%95%E5%83%B9%E7%AD%86%E8%A8%98%F0%9F%93%93/">
+        財報分析與評價筆記📓 →
+    </a>
+    
+</nav>
+
+        <div class="col-md-8 col-md-offset-2 col-sm-24"><script type="text/javascript">
+  /**
+   * 搜狐畅言
+   */
+
+  /*
+  document.write('<div id="SOHUCS" sid="' + window.location.pathname.slice(1) + '" ></div>');
+
+  window.onload = function () {
+    (function () {
+      var appid = 'cytXXXX';
+      var conf = 'prod_xxxxxxxxxxxxxxxxx';
+      var width = window.innerWidth || document.documentElement.clientWidth;
+      var loadJs = function (d, a, id) {
+        var c = document.getElementsByTagName("head")[0] || document.head || document.documentElement;
+        var b = document.createElement("script");
+        b.setAttribute("type", "text/javascript");
+        b.setAttribute("charset", "UTF-8");
+        b.setAttribute("src", d);
+        if (id) {
+          b.setAttribute("id", id);
+        }
+        if (typeof a === "function") {
+          if (window.attachEvent) {
+            b.onreadystatechange = function () {
+              var e = b.readyState;
+              if (e === "loaded" || e === "complete") {
+                b.onreadystatechange = null;
+                a()
+              }
+            }
+          } else {
+            b.onload = a
+          }
+        }
+        c.appendChild(b)
+      };
+
+      loadJs("https://changyan.sohu.com/upload/changyan.js", function () {
+        window.changyan.api.config({
+          appid: appid,
+          conf: conf
+        })
+      });
+    })();
+  }
+  */
+
+</script>
+</div>
+    </div>
+</section>
+
+
+      
+<!-- ============================ Footer =========================== -->
+
+<footer>
+    <div class="container">
+            <div class="copy">
+                <p>
+                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By John Doe. All Rights Reserved.
+                </p>
+                <p>Theme By <a target="_blank" rel="noopener" href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
+            </div>
+            <div class="social">
+                <ul>
+                    
+                    <li><a href="https://github.com/" title="Github" target="_blank"><i class="icon-github"></i></a>&nbsp;</li>
+                    
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+</footer>
+
+<!-- ============================ END Footer =========================== -->
+      <!-- Load our scripts -->
+<!-- Resizable 'on-demand' full-height hero -->
+<script type="text/javascript">
+    var resizeHero = function () {
+        var hero = $(".cover,.heightblock"),
+            window1 = $(window);
+        hero.css({
+            "height": window1.height()
+        });
+    };
+
+    resizeHero();
+
+    $(window).resize(function () {
+        resizeHero();
+    });
+</script>
+<script src="/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
+<script src="/js/scripts.js"></script><!-- Theme scripts -->
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$('#intro').find('img').each(function(){
+  var alt = this.alt;
+
+  if (alt){
+    $(this).after('<span class="caption" style="display:none">' + alt + '</span>');
+  }
+
+  $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery" />');
+});
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+      
+</body>
+</html>
