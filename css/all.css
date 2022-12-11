@@ -112,6 +112,16 @@ h2 {
 	line-height: 30px;
 	letter-spacing: 1px;
 }
+coverh2 {
+	margin-top: 0;
+    font-family: "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial;
+	font-weight: 400;
+	font-weight: normal;
+	color: #302d2d;
+	font-size: 45px;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
 @media (max-width:768px) {
 	h2 {
 		font-size: 22px;
@@ -122,9 +132,9 @@ h2 {
 }
 h3 {
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 37px;
-	font-size: 20px;
+	font-size: 21px;
 	margin-top: 0;
 }
 h4 {
@@ -167,6 +177,7 @@ a:visited,
 a:link {
 	color: #151515;
 	text-decoration: none;
+	font-weight: 400;
 }
 [class*="col-"] {
 	padding-top: 15px;
@@ -579,7 +590,7 @@ nav i.icon-basic-eye {
 	background-color: #fff;
     background-color: rgba(255,255,255,.9)
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 	.navbar-inner.lightnav-alt {
 		border-bottom: none;
 	}
@@ -641,7 +652,7 @@ nav i.icon-basic-eye {
 	font-weight: 400;
 	cursor: pointer;
 }
-@media (max-width:767px) {
+@media (max-width:768px) {
 	.learnmore {
 		display: none;
 	}
@@ -851,18 +862,19 @@ span.sb-caret { /* Caret Down */
 	padding-top: 0;
 }
 #hero h2 {
-	color: #151515;
-	margin-bottom: 20px;
+	color: #ffffff;
+	font-size: 45px;
+	font-family: "Times New Roman";
 	display: inline-block;
-	padding: 14px;
+	line-height: 1em;
 }
 #hero p {
-	color: #333;
-	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
-	font-size: 18px;
+	color: rgb(255, 255, 255);
+	font-family: "Times New Roman";
+	font-size: 21px;
 	display: inline-block;
 }
-@media (max-width:1024px) {
+@media (max-width:768px) {
 	#hero {
 		position: relative;
 	}
@@ -873,11 +885,50 @@ span.sb-caret { /* Caret Down */
 		display: none
 	}
 }
-@media (max-width:767px) {
+@media (max-width:1024px) {
 	#hero p {
 		display: none
 	}
 }
+
+/********************************************************/
+/* Archive Hero                                           */
+/********************************************************/
+#Archivehero {
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	padding-top: 0;
+	max-width: 100%;
+	display:block
+	}
+#Archivehero h2 {
+	color: #ffffff;
+	font-size: 150px;
+	font-family: "Times New Roman";
+	display: inline-block;
+	line-height: 0em;
+}
+
+@media (max-width:800px) {
+	#Archivehero {
+		position: relative;
+	}
+	#Archivehero .element-img {
+		background-attachment: scroll !important
+	}
+	.heightblock {
+		display: none;
+	}
+}
+@media (max-width:767px) {
+	#Archivehero p {
+		display: none
+	}
+}
+
+
+
 /********************************************************/
 /* Video Hero                                           */
 /********************************************************/
